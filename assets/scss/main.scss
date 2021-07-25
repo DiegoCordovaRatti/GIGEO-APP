@@ -9,11 +9,12 @@
 @import 'base/reset';
 @import 'base/typography';
 // Layout
+@import 'layout/navbar';
 @import 'layout/header';
-@import 'layout/main';
-@import 'layout/forms';
+@import 'layout/article';
 // Components
 @import 'componentes/buttons';
 @import 'componentes/inputs'; 
+@import 'componentes/images'; 
 // Pages
 // Theme

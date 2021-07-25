@@ -1,26 +1,33 @@
-// .button{
-//     padding: 0.7rem 2rem;
-//     border-radius: 3px;
-//     font-family: $open-sans;
-//     font-size: $small;
-//     color:$white;
-// }
+.header__button {
+    color: $white;
+    border: none;
+    font-size: $x-large;
+    font-weight: $weight-thin;
+    margin: 0 5px;
+    padding: 5px 20px;
+    transition: 300ms ease;
 
-// .button_default{
-//    color: $carmine-pink;
-//    border: $carmine-pink;
-//    &:hover{
-//        background-color: $salmon;
-//        border-color:$salmon;
-//        color: $black-olive;
-//    }
-// }
+    &.header__button--blue {
+        background-color: $morning-glory;
 
-// .button_positive {
-//     background-color: $verdigris;
-//     border-color: $verdigris;
-//     &:hover {
-//     background-color: $medium-aquamarine;
-//     border-color: $medium-aquamarine;
-//     }
-// }
+        &:hover {
+            background-color: #5bd4e4;
+        }
+
+        &:focus {
+            border: solid $gray 1px;
+        }
+    }
+
+    &.header__button--red {
+        background-color: $bean-red;
+
+        &:hover {
+            background-color: #ec4d4a;
+        }
+
+        &:focus {
+            border: solid $gray 1px;
+        }
+    }
+}

@@ -1,31 +1,32 @@
 //Color Schemes
 //First color scheme
-
-//Second color scheme
-
-
-//Third color scheme
-
-
-//Fourth color scheme
-
+$blue-charcoal:#001417;
+$bean-red:#EF6461;
+$morning-glory:#92DCE5;
+$gray:#858585;
+$white: #FFFFFF;
 
 // Typography
 //Font Families
+$inter: 'Inter', sans-serif;
+$open-sans: 'Open Sans', sans-serif;
 
 // Typography
 // Font Weight
-// $regular: 400;
-// $semi-bold: 600;
-// $bold: 700;
+$weight-light: 100;
+$weight-thin: 300;
+$weight-regular: 400;
+$weight-semibold: 600;
+$weight-bold: 700;
+$weight-black: 900;
 
 // Typography
 // Font Sizes
-// $xxxx-large: 130px;
-// $xxx-large: 100px;
-// $xx-large: 30px;
-// $x-large: 20px;
-// $large: 18px;
-// $medium: 16px;
-// $small: 14px;
-// $x-small: 12px;
+$xxxx-large: 4.375rem;
+$xxx-large: 3.125rem;
+$xx-large: 1.875rem;
+$x-large: 1.25rem;
+$large: 1.125rem;
+$medium: 1rem;
+$small: .875rem;
+$x-small: .75rem;

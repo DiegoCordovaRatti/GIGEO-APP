@@ -11,7 +11,11 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="" type="image/x-icon">
     <!-- GoogleFonts -->
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;600;700;900&family=Open+Sans:wght@300;400&display=swap"
+        rel="stylesheet">
     <!--Font Awesome 5.6.3-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
         integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
@@ -24,8 +28,8 @@
 <body>
     <!------------------- NAVBAR ---------------------->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="navbar__container container-fluid">
-            <a class="navbar__logo navbar-brand" href="#">GIGEO<sup class="navbar__superscript">ART</sup></a>
+        <div class="navbar__container container-fluid mx-md-5">
+            <a class="navbar-brand" href="#"><h1 class="navbar__logo">GIGEO<sup class="navbar__superscript">ART</sup></h1></a>
             <button class="navbar__toggler navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -34,48 +38,51 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar__list navbar-nav ms-auto">
                     <li class="navbar__list-item nav-item">
-                        <a class="navbar__link nav-link" href="#"><i class="fas fa-search"></i></a>
+                        <a class="navbar__link nav-link" href="#"><i class="fas fa-search fa-2x text-dark"></i></a>
                     </li>
                     <li class="navbar__list-item nav-item">
-                        <a class="navbar__link nav-link" href="#"><i class="fas fa-video"></i></a>
+                        <a class="navbar__link nav-link" href="#"><i class="fas fa-video fa-2x text-dark"></i></a>
                     </li>
                     <li class="navbar__list-item nav-item">
-                        <a class="navbar__link nav-link" href="#"><i class="fas fa-plus"></i></a>
+                        <a class="navbar__link nav-link" href="#"><i class="fas fa-plus fa-2x text-dark"></i></a>
                     </li>
                     <li class="navbar__list-item nav-item">
-                        <a class="navbar__link nav-link" href="#"><i class="far fa-bell"></i></a>
+                        <a class="navbar__link nav-link" href="#"><i class="far fa-bell fa-2x text-dark"></i></a>
                     </li>
                     <li class="navbar__list-item nav-item">
-                        <a class="navbar__link nav-link" href="#"><span class="navbar-toggler-icon"></span></a>
+                        <a class="navbar__link nav-link" href="#"><span class="navbar-toggler-icon text-dark"></span></a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-
     <!------------------- HEADER ---------------------->
     <header class="header">
         <div class="header__container">
-            <div class="header__image-container">
-                <img src="" alt="" class="header__image">
+            <div class="header__banner-container">
+                <img src="assets/img/image-banner.png" alt="" class="header__banner-image">
             </div>
-            <div class="header__header-container">
+            <div class="header__user-container mx-5 my-3">
                 <div class="header__profile-container">
-                    <img src="assets/img/profile-image.png" alt="" class="header__profile-image">
-                    <h5 class="header__profile-name">Yuki Mukami</h5>
-                    <p class="header__profile-followers">30.000 seguidores</p>
+                    <img src="assets/img/profile-image.png" alt="" class="header__profile-image me-4">
+                    <div class="header__profile-text-container">
+                        <h5 class="header__profile-name m-0">Yuki Mukami</h5>
+                        <p class="header__profile-followers m-0">30.000 seguidores</p>
+                    </div>
                 </div>
-                <div class="header__button-container">
+                <div class="header__button-container ms-auto d-none d-lg-block">
                     <button type="button" class="header__button header__button--blue">Mensaje</button>
                     <button type="button" class="header__button header__button--red">Seguir</button>
                 </div>
             </div>
+            <hr class="d-none d-lg-block mx-5">
         </div>
     </header>
 
     <!------------------- ARTICLE ---------------------->
     <article class="article">
+        <h3 class="d-flex justify-content-center justify-content-lg-start m-5">Videos populares</h3>
         <div class="article__container row row-cols-1 row-cols-md-2 row-cols-lg-4 g-5 mx-5">
             <div class="article__card-container col">
                 <div class="article__card card">
@@ -145,7 +152,7 @@
                     <img src="assets/img/image-8.png" class="article__card-image card-img-top" alt="...">
                     <div class="article__card-body card-body">
                         <h5 class="article__card-title card-title">Santiago - Yuki Mukami</h5>
-                        <p class="article__card-text card-text">40k vistas - 3 mese atrás</p>
+                        <p class="article__card-text card-text">40k vistas - 3 meses atrás</p>
                     </div>
                 </div>
             </div>

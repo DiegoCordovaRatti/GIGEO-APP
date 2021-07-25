@@ -1,8 +1,16 @@
-// .header {
-//     padding-top: 2rem;
-//     padding-left: 2rem;
-// }
-
-// .logo {
-//     width: 120px;
-// }
+.header__user-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .header__profile-container{
+        display: flex;
+        align-items: center;
+        .header__profile-text-container{
+            cursor: pointer;
+            .header__profile-name{
+                font-size: $x-large;
+                font-weight: $weight-black;
+            }
+        }
+    }
+}
